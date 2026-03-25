@@ -1,0 +1,186 @@
+{
+  "iva_rate": 10.0,
+  "regions": [
+    {
+      "id": "andalucia",
+      "itp_standard": 7.0,
+      "ajd_standard": 1.2,
+      "igic_rate": null,
+      "notes": "7% general. Reduced rates available for primary residence (6% up to €150k; 3.5% up to €150k for under 35 or special conditions)."
+    },
+    {
+      "id": "aragon",
+      "itp_standard": 8.0,
+      "itp_brackets": [
+        { "upTo": 400000, "rate": 8.0 },
+        { "upTo": 450000, "rate": 8.5 },
+        { "upTo": 500000, "rate": 9.0 },
+        { "upTo": 750000, "rate": 9.5 },
+        { "upTo": null, "rate": 10.0 }
+      ],
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "Progressive scale 8–10% depending on price. 60% bonus for families in rural areas."
+    },
+    {
+      "id": "asturias",
+      "itp_standard": 8.0,
+      "itp_brackets": [
+        { "upTo": 300000, "rate": 8.0 },
+        { "upTo": 500000, "rate": 9.0 },
+        { "upTo": null, "rate": 10.0 }
+      ],
+      "ajd_standard": 1.2,
+      "igic_rate": null,
+      "notes": "Progressive scale 8–10%. Reduced 4–6% for rural areas and young buyers (up to 35). 3% for protected housing."
+    },
+    {
+      "id": "baleares",
+      "itp_standard": 8.0,
+      "itp_brackets": [
+        { "upTo": 400000, "rate": 8.0 },
+        { "upTo": 600000, "rate": 9.0 },
+        { "upTo": 1000000, "rate": 10.0 },
+        { "upTo": 3000000, "rate": 12.0 },
+        { "upTo": null, "rate": 13.0 }
+      ],
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "Progressive scale 8–13%. Reduced rates: 4% for primary residence (≤€270k), 2% for under 36, disabled, or family."
+    },
+    {
+      "id": "canarias",
+      "itp_standard": 6.5,
+      "ajd_standard": 0.75,
+      "igic_rate": 7.0,
+      "notes": "6.5% general. 5% for primary residence (base ≤€200k, €300k for family, €400k for special family). 1% for families, disabled, monoparental, victims of violence, under 40."
+    },
+    {
+      "id": "cantabria",
+      "itp_standard": 9.0,
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "9% general. 7% for primary residence (value <€200k). 4% for family, monoparental, under 36, or disabled. 5% for rehabilitation. 3% for young entrepreneurs."
+    },
+    {
+      "id": "castilla_la_mancha",
+      "itp_standard": 9.0,
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "9% general. 6% for first primary residence (value ≤€180k). 5% for under 36, disabled, family, monoparental (value ≤€180k). 5–3% in depopulation-risk municipalities."
+    },
+    {
+      "id": "castilla_leon",
+      "itp_standard": 8.0,
+      "itp_brackets": [
+        { "upTo": 250000, "rate": 8.0 },
+        { "upTo": null, "rate": 10.0 }
+      ],
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "Progressive 8–10%. 4% for family, disabled (≥65%), under 36, or protected housing. 0.01% for under 36 + first residence + rural (<10k hab) + value ≤€150k."
+    },
+    {
+      "id": "catalunya",
+      "itp_standard": 10.0,
+      "itp_brackets": [
+        { "upTo": 600000, "rate": 10.0 },
+        { "upTo": 900000, "rate": 11.0 },
+        { "upTo": 1500000, "rate": 12.0 },
+        { "upTo": null, "rate": 13.0 }
+      ],
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "Progressive scale 10–13% (since 27.06.2025). 20% for large tenants or bulk building acquisitions. 5% for VPO, family, monoparental, disabled, under 35, violence victims. 4% for rural primary residence (20.08.2025–16.07.2029). 3% for special rural areas."
+    },
+    {
+      "id": "comunidad_valenciana",
+      "itp_standard": 10.0,
+      "itp_brackets": [
+        { "upTo": 1000000, "rate": 10.0 },
+        { "upTo": null, "rate": 11.0 }
+      ],
+      "itp_brackets_transition": {
+        "effective_from": "2026-07-01",
+        "brackets": [
+          { "upTo": 1000000, "rate": 9.0 },
+          { "upTo": null, "rate": 11.0 }
+        ]
+      },
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "10% until 31.05.2026, then 9% (over €1M always 11%). 4% for primary residence from 30.06.2026. 4% for family, monoparental, disabled, violence victims (value >€180k); 3% if ≤€180k. 6% for under 35 (value ≤€180k)."
+    },
+    {
+      "id": "ceuta",
+      "itp_standard": 6.0,
+      "ajd_standard": 0.5,
+      "igic_rate": null,
+      "notes": "Autonomous city. 6% ITP."
+    },
+    {
+      "id": "extremadura",
+      "itp_standard": 8.0,
+      "itp_brackets": [
+        { "upTo": 360000, "rate": 8.0 },
+        { "upTo": 600000, "rate": 10.0 },
+        { "upTo": null, "rate": 11.0 }
+      ],
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "Progressive scale 8–11%. 7% for primary residence (value ≤€200k, as of 08.04.2025). 6% for business/professional use. 4% for VPO or rural primary residence."
+    },
+    {
+      "id": "galicia",
+      "itp_standard": 8.0,
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "8% general. 7% for primary residence. 6% for rural area primary residence. 4% for rural primary residence with rehabilitation. 100% deduction for disabled, family, under 36 in rural areas."
+    },
+    {
+      "id": "madrid",
+      "itp_standard": 6.0,
+      "ajd_standard": 0.75,
+      "igic_rate": null,
+      "notes": "6% general. 4% for family (under certain conditions). 10% deduction for primary residence (value ≤€250k). 2% for real estate company transfers."
+    },
+    {
+      "id": "melilla",
+      "itp_standard": 6.0,
+      "ajd_standard": 0.5,
+      "igic_rate": null,
+      "notes": "Autonomous city. 6% ITP."
+    },
+    {
+      "id": "murcia",
+      "itp_standard": 8.0,
+      "ajd_standard": 1.5,
+      "igic_rate": null,
+      "notes": "8% general. 5% for young entrepreneurs under 40. 4% for VPO. 3% for family, under 40, or disabled (≥65%)."
+    },
+    {
+      "id": "navarra",
+      "itp_standard": 6.0,
+      "ajd_standard": 0.5,
+      "igic_rate": null,
+      "notes": "6% general. 5% for family with 2+ children (base ≤€180.3k) purchasing primary residence."
+    },
+    {
+      "id": "pais_vasco",
+      "itp_standard": 7.0,
+      "itp_brackets": [
+        { "upTo": null, "rate": 7.0 }
+      ],
+      "ajd_standard": 0.0,
+      "igic_rate": null,
+      "notes": "7% general. 4% for residential property. 2.5% for family with 2+ children (primary residence) in Bizkaia."
+    },
+    {
+      "id": "la_rioja",
+      "itp_standard": 7.0,
+      "ajd_standard": 1.0,
+      "igic_rate": null,
+      "notes": "7% general. 5% for VPO and family. 3% for VPO and family. 4% for under 40 + first primary residence (as of 03.03.2025). 3% if in depopulation-risk municipality."
+    }
+  ]
+}

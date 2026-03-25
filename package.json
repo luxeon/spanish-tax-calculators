@@ -1,0 +1,33 @@
+{
+  "name": "spanish-tax-calculators",
+  "version": "1.0.0",
+  "description": "Pure functions for Spanish tax calculations: IRPF, Social Security, Autónomo, Autónomo Colaborador, and ITP",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "spain",
+    "tax",
+    "irpf",
+    "autonomo",
+    "social-security",
+    "itp",
+    "calculator",
+    "impuestos",
+    "hacienda",
+    "retenciones"
+  ],
+  "author": "Dmytro Shvechikov <quitereality@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxeon/dsinvestments"
+  },
+  "homepage": "https://calculators.dslab.fyi",
+  "engines": {
+    "node": ">=18"
+  }
+}
