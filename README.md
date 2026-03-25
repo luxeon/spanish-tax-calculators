@@ -1,5 +1,7 @@
 # spanish-tax-calculators
 
+[![npm](https://img.shields.io/npm/v/spanish-tax-calculators)](https://www.npmjs.com/package/spanish-tax-calculators)
+
 Pure JavaScript calculators for Spanish taxes — no dependencies, no UI.
 
 ## Demo
